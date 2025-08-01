@@ -166,7 +166,12 @@ const local: App.I18n.Schema = {
     404: '页面不存在',
     500: '服务器错误',
     'iframe-page': '外链页面',
-    home: '首页'
+    home: '首页',
+    manage: '系统管理',
+    manage_user: '用户管理',
+    'manage_user-detail': '用户详情',
+    manage_role: '角色管理',
+    manage_menu: '菜单管理'
   },
   page: {
     login: {
@@ -243,6 +248,64 @@ const local: App.I18n.Schema = {
         desc5: 'Soybean 刚才把工作台页面随便写了一些，凑合能看了！'
       },
       creativity: '创意'
+    },
+    manage: {
+      common: {
+        status: {
+          enable: '启用',
+          disable: '禁用'
+        }
+      },
+      user: {
+        title: '用户列表',
+        userName: '用户名',
+        userGender: '性别',
+        nickName: '昵称',
+        userPhone: '手机号',
+        userEmail: '邮箱',
+        userStatus: '用户状态',
+        addUser: '新增用户',
+        editUser: '编辑用户',
+        gender: {
+          male: '男',
+          female: '女'
+        }
+      },
+      role: {
+        title: '角色列表',
+        roleName: '角色名称',
+        roleCode: '角色编码',
+        roleDesc: '角色描述',
+        roleStatus: '角色状态',
+        addRole: '新增角色',
+        editRole: '编辑角色',
+        menuAuth: '菜单权限',
+        buttonAuth: '按钮权限'
+      },
+      menu: {
+        title: '菜单列表',
+        id: 'ID',
+        menuType: '菜单类型',
+        menuName: '菜单名称',
+        icon: '图标',
+        routeName: '路由名称',
+        routePath: '路由路径',
+        menuStatus: '菜单状态',
+        hideInMenu: '隐藏菜单',
+        parentId: '父级菜单',
+        order: '排序',
+        addMenu: '新增菜单',
+        editMenu: '编辑菜单',
+        addChildMenu: '新增子菜单',
+        type: {
+          directory: '目录',
+          menu: '菜单'
+        },
+        iconType: {
+          iconify: 'Iconify图标',
+          local: '本地图标'
+        }
+      }
     }
   },
   form: {

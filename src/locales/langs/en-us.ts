@@ -166,7 +166,12 @@ const local: App.I18n.Schema = {
     404: 'Page Not Found',
     500: 'Server Error',
     'iframe-page': 'Iframe',
-    home: 'Home'
+    home: 'Home',
+    manage: 'System Manage',
+    manage_user: 'User Manage',
+    'manage_user-detail': 'User Detail',
+    manage_role: 'Role Manage',
+    manage_menu: 'Menu Manage'
   },
   page: {
     login: {
@@ -243,6 +248,64 @@ const local: App.I18n.Schema = {
         desc5: 'Soybean just wrote some of the workbench pages casually, and it was enough to see!'
       },
       creativity: 'Creativity'
+    },
+    manage: {
+      common: {
+        status: {
+          enable: 'Enable',
+          disable: 'Disable'
+        }
+      },
+      user: {
+        title: 'User List',
+        userName: 'User Name',
+        userGender: 'Gender',
+        nickName: 'Nick Name',
+        userPhone: 'Phone Number',
+        userEmail: 'Email',
+        userStatus: 'User Status',
+        addUser: 'Add User',
+        editUser: 'Edit User',
+        gender: {
+          male: 'Male',
+          female: 'Female'
+        }
+      },
+      role: {
+        title: 'Role List',
+        roleName: 'Role Name',
+        roleCode: 'Role Code',
+        roleDesc: 'Role Description',
+        roleStatus: 'Role Status',
+        addRole: 'Add Role',
+        editRole: 'Edit Role',
+        menuAuth: 'Menu Auth',
+        buttonAuth: 'Button Auth'
+      },
+      menu: {
+        title: 'Menu List',
+        id: 'ID',
+        menuType: 'Menu Type',
+        menuName: 'Menu Name',
+        icon: 'Icon',
+        routeName: 'Route Name',
+        routePath: 'Route Path',
+        menuStatus: 'Menu Status',
+        hideInMenu: 'Hide In Menu',
+        parentId: 'Parent Menu',
+        order: 'Order',
+        addMenu: 'Add Menu',
+        editMenu: 'Edit Menu',
+        addChildMenu: 'Add Child Menu',
+        type: {
+          directory: 'Directory',
+          menu: 'Menu'
+        },
+        iconType: {
+          iconify: 'Iconify Icon',
+          local: 'Local Icon'
+        }
+      }
     }
   },
   form: {

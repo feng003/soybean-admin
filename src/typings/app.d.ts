@@ -498,6 +498,64 @@ declare namespace App {
           };
           creativity: string;
         };
+        manage: {
+          common: {
+            status: {
+              enable: string;
+              disable: string;
+            };
+          };
+          user: {
+            title: string;
+            userName: string;
+            userGender: string;
+            nickName: string;
+            userPhone: string;
+            userEmail: string;
+            userStatus: string;
+            addUser: string;
+            editUser: string;
+            gender: {
+              male: string;
+              female: string;
+            };
+          };
+          role: {
+            title: string;
+            roleName: string;
+            roleCode: string;
+            roleDesc: string;
+            roleStatus: string;
+            addRole: string;
+            editRole: string;
+            menuAuth: string;
+            buttonAuth: string;
+          };
+          menu: {
+            title: string;
+            id: string;
+            menuType: string;
+            menuName: string;
+            icon: string;
+            routeName: string;
+            routePath: string;
+            menuStatus: string;
+            hideInMenu: string;
+            parentId: string;
+            order: string;
+            addMenu: string;
+            editMenu: string;
+            addChildMenu: string;
+            type: {
+              directory: string;
+              menu: string;
+            };
+            iconType: {
+              iconify: string;
+              local: string;
+            };
+          };
+        };
       };
       form: {
         required: string;
